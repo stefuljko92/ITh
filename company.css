@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 200px;
+    background: burlywood;
+}
+
+.logo {
+    height: 15px;
+    width: 15px;
+    padding: 25px 25px;
+}
+
+.glava {
+    float: right;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.li {
+    display: inline;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    border: brown;
+}
+
+a:hover {
+    color: white;
+    background: transparent;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.Telo {
+    height: 30%;
+    position: relative;
+}
+
+.rec {
+    position: absolute;
+    color: black;
+    top: 45%;
+    left: 35%;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.slike {
+    height: 350px;
+    background-color: burlywood;
+    position: relative;
+    top: -7px;
+}
+
+.sike {
+    margin: 50px 120px;
+}
+
+.opis {
+    position: relative;
+    display: inline;
+    padding: 100px 220px;
+    font-size: 20px;
+    font-weight: bold;
+    top: -40px;
+} 
+.mape {
+    position: relative;
+    top: -7px;
+}
+
+.futer {
+    text-align: center;
+    position: relative;
+    background-color: burlywood;
+    height: 30px;
+}
